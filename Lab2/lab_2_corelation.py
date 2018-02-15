@@ -63,11 +63,17 @@ axis[0].scatter(df_cell_cycle.mean_RNA_G1, df_cell_cycle.mean_protein_G1, c='r')
 axis[0].scatter(df_cell_cycle.mean_RNA_S, df_cell_cycle.mean_protein_S, c='g')
 axis[0].scatter(df_cell_cycle.mean_RNA_G2, df_cell_cycle.mean_protein_G2, c="b")
 
+axis[0].set_title("Cell cycle")
+axis[0].set_xlabel('RNA')
+axis[0].set_ylabel('PROTEIN')
+
 axis[1].scatter(df_ribosome.mean_RNA_G1, df_ribosome.mean_protein_G1, c='r')
 axis[1].scatter(df_ribosome.mean_RNA_S, df_ribosome.mean_protein_S, c='g')
 axis[1].scatter(df_ribosome.mean_RNA_G2, df_ribosome.mean_protein_G2, c="b")
 
-
+axis[1].set_title("Ribosome")
+axis[1].set_xlabel('RNA')
+axis[1].set_ylabel('PROTEIN')
 
 fig, axis = plt.subplots(2,3)
 corr_G1_CC = df_cell_cycle[['mean_RNA_G1','mean_protein_G1']].corr()
