@@ -1,0 +1,3 @@
+Blast on PAX6_MOUSE showed 100% correlation to the human genome, meaning the gene for the eye hasn't changed evolutionarily speaking from a mouse to a human. However, performing blast on O96791_DROME the eyeless fly shows strong correlations with only other eyeless flys. Meaning the evolutionary tree for such organism's gene can not be found in other different species. 
+
+running a protein blast sequence against the two proteins shows how the fruit fly eye finds a 100% match in the mouse gene, however, since the fruit fly gene is much shorter than that of the mouse it doesn't show a strong correlation.
